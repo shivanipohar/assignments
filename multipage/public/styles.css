@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.headH1 {
+    padding: 20px;
+    color:purple;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    
+}
+
+ul {
+    display: flex;
+    color: black;
+    list-style: none;
+
+    margin-left: auto;
+
+}
+
+li {
+    cursor: pointer;
+    padding: 25px;
+    
+    font-size: 25px;
+}
+
+
+
+nav {
+    display: flex;
+    padding: 10px;
+    border: black;
+}
+a{
+    color: violet;
+}
+
+a {
+    text-decoration: none;
+
+}
+form{
+    padding-top: 50px;
+    font-size: 20px;
+  
+    
+}
+form input{
+   margin-left: 10px;
+   
+}
+
+  
+
+
+
+
+  table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    height: 50px;
+  }
+  
+  
+  
+  
+  table {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: italic;
+      border-collapse: collapse;
+      width: 40%;
+    }
+    
+    table td, table th {
+      border: 1px solid #ddd;
+      padding: 5px;
+      color:rgb(218, 118, 168);
+
+    }
+    
+    table tr:nth-child{background-color: #478fac;}
+    
+    table tr:hover {background-color: #ddd;}
+    
+    table th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #6f77e9;
+      color: white;
+    }
+  #tab{
+      width: 1000px;
+      padding: 10px;
+      text-align: center;
+      margin-left: 200px;
+  }
+  
+  body{
+    /* background:url("book1.png"); */
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEfRovzm7v0QL4nzsTt55ueGmXOUsjJoQecg&usqp=CAU");
+    background-repeat:no-repeat;
+	background-size: cover;
+}
+input[type=text] {
+    width: 230px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 17%;
+  }
