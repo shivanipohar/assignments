@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book</title>
+
+</head>
+<style>
+    .content{display:none}
+</style>
+
+<link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+    <nav>
+        <h1 class="headH1">Book Management System</h1>
+        <ul>
+            
+            <!-- <button id="button1 "> adding book</button> -->
+            <li><a onclick="homeDisplay()">booklist</a></li>
+            <li><a onclick="addbookDisplay()">addbook</a></li>
+        </ul>
+    </nav>
+    
+    <div id="addbookid" class="content">
+    <div class="addform">
+        </div>
+    
+    
+        <label>Id</label>
+        <input text="newid" id="newid"></input><br><br>
+        <label>Title</label>
+        <input text="newtitle" id="newtitle"></input><br><br>
+        <label>Author</label>
+        <input text="newauthor" id="newauthor"></input><br><br>
+        <label>Price</label>
+        <input text="newprice" id="newprice"></input><br><br>
+        <label>Rating</label>
+        <input text="newrating" id="newrating"></input><br><br>
+        <button onclick=" addbook()"  >Add Book</button>
+
+
+       
+    </div>
+
+    <div id="homecontent" class="content">
+        
+        
+        <form onsubmit=" search()" method="post">
+            <label for="toSearchByBook"></label>
+
+            <select name="search" id="searchOptions" onclick="option()">
+                
+                <option value="id">Id</option>
+                <option value="title">Title</option>
+                <option value="author">Author</option>
+                <option value="rating">Rating</option>
+            </select>
+
+
+            <input type="text" placeholder="search..." id="searchid" >
+           
+        
+        
+        
+        </form>
+
+        <button id="searchDetails" onclick="searchByDetails()"><i class="fa fa-search fa-2x"></i></button>
+        <!-- </form><button id="reset" onclick="showall()">show all books</button> -->
+        
+        <br>
+        <br>
+
+
+    
+        <br>
+        <hr>
+        <br>
+
+        <div class="table">
+            <button id="show" onclick="show1()">show list</button>
+            <table display:none>
+                <tr>
+                    <th>Id </th>
+                    <th>Title</th>
+                    <th>Author </th>
+                    <th>Price </th>
+                    <th>Rating </th>
+                    <th>Action</th>
+                </tr>
+                <tbody id="tbdy">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    
+    
+    <script>
+        function homeDisplay(){
+            document.getElementById("homecontent").style.display="block";
+            document.getElementById("addbookid").style.display="none";
+
+        }
+
+        function addbookDisplay(){
+            document.getElementById("addbookid").style.display="block";
+            document.getElementById("homecontent").style.display="none";
+
+        }
+    </script>
+<script src="./book.js"> </script>
+</body>
+
+</html>
