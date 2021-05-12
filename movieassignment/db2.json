@@ -1,0 +1,14 @@
+{
+    "movies":[
+        {
+            "id":1,
+            "moviename":"Harry potter",
+            "timing":["11:00 pm","02:00pm"]
+        },
+        {
+            "id":2,
+            "moviename":"Inside out",
+            "timing":["06:00 pm","09:00pm"]
+        }
+    ]
+}
