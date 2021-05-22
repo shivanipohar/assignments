@@ -1,3 +1,6 @@
 [submodule "Bookswebappproject/my-app"]
 	path = Bookswebappproject/my-app
 	url = https://github.com/shivanipohar/assignments.git
+[submodule "Bookswebappproj/my-app"]
+	path = Bookswebappproj/my-app
+	url = https://github.com/shivanipohar/assignments.git
