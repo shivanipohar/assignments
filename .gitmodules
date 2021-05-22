@@ -1,0 +1,3 @@
+[submodule "Bookswebappproject/my-app"]
+	path = Bookswebappproject/my-app
+	url = https://github.com/shivanipohar/assignments.git
