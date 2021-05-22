@@ -1,0 +1,141 @@
+.container {
+  max-height: 30px;
+  max-width: 30px;
+}
+.header {
+  background-color: lightpink;
+}
+.headertitle {
+  padding: 2px;
+  color: purple;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sea {
+  background-color: rgb(172, 223, 238);
+  color: black;
+  border-radius: 10px;
+  margin-left: 870px;
+  font-size: 19px;
+}
+
+.sea1 {
+  background-color: rgb(172, 223, 238);
+  color: black;
+  border-radius: 10px;
+  font-size: 19px;
+}
+.sea2 {
+  background-color: rgb(172, 223, 238);
+  color: black;
+  border-radius: 10px;
+  font-size: 19px;
+}
+.sea4 {
+  background-color: rgb(172, 223, 238);
+  color: black;
+  border-radius: 10px;
+  font-size: 19px;
+}
+
+.book-card {
+  /* box-shadow: 0 4px 8px 0 rgba(185, 159, 159, 0.5);
+   */
+  /* border: 1px solid; */
+  padding: 10px;
+  box-shadow: 5px 8px 5px 8px #888888;
+
+  max-width: 265px;
+  height: 370px;
+  margin: 22px;
+  text-align: center;
+  font-family: Lucida Handwriting;
+  border-radius: 20px;
+  float: left;
+  color: #000;
+}
+
+#img {
+  width: 40%;
+}
+#cardimg {
+  width: 10%;
+  text-align: justify;
+}
+
+input[type="text"],
+select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="number"],
+select {
+  width: 50%;
+  padding: 5px 50px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: auto;
+}
+
+.title {
+  font-family: "Lucida Handwriting", "Courier New", monospace;
+  color: blue;
+}
+.form {
+  font-family: "Lucida Handwriting", "Courier New", monospace;
+  color: black;
+}
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.navgroup {
+  margin-left: 1000px;
+}
+
+#searchname {
+  padding: 18px;
+}
+.deletebutton {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+
+  text-decoration: none;
+
+  font-size: 16px;
+  font-family: Lucida Handwriting;
+
+  margin-right: auto;
+  cursor: pointer;
+}
+.searchbar {
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 20px;
+}
+
+
+
+.star{
+  color: yellow;
+}
